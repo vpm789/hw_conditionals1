@@ -85,5 +85,18 @@ public class Main {
     public static void task7(){
         System.out.println("");
         System.out.println("Задача №7");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        boolean maxNumber = true;
+        if (maxNumber = one > two && one > three) {
+            System.out.println("Наибольшее число = "+one);
+        } else if (maxNumber = two > one && two > three) {
+            System.out.println("Наибольшее число = "+two);
+        } else if (maxNumber = three > one && three > two) {
+            System.out.println("Наибольшее число = "+three);
+        } else {
+            System.out.println("Наибольшее число не найдено");
+        }
     }
 }
