@@ -59,6 +59,17 @@ public class Main {
     public static void task5(){
         System.out.println("");
         System.out.println("Задача №5");
+        byte totalPlaceWagon = 102;
+        byte seatPlaceWagon = 60;
+        byte numberPassenger = 120;
+        if (numberPassenger >= 0 && numberPassenger<60) {
+            System.out.println("Количество пассажиров "+numberPassenger+" человек, в вагоне есть сидячие места");
+        } else if (numberPassenger>60 && numberPassenger<102) {
+            System.out.println("Количество пассажиров - "+numberPassenger+" человек, в вагоне есть стоячие места");
+        } else {
+            System.out.println("Мест в вагоне нет");
+        }
+
     }
     public static void task6(){
         System.out.println("");
