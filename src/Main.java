@@ -59,8 +59,6 @@ public class Main {
     public static void task5(){
         System.out.println("");
         System.out.println("Задача №5");
-        byte totalPlaceWagon = 102;
-        byte seatPlaceWagon = 60;
         byte numberPassenger = 120;
         if (numberPassenger >= 0 && numberPassenger<60) {
             System.out.println("Количество пассажиров "+numberPassenger+" человек, в вагоне есть сидячие места");
@@ -69,11 +67,20 @@ public class Main {
         } else {
             System.out.println("Мест в вагоне нет");
         }
-
     }
     public static void task6(){
         System.out.println("");
         System.out.println("Задача №6");
+        byte childAge = 10;
+        if (childAge<5){
+            System.out.println("Если возраст ребенка равен "+childAge+", то он не может кататься на аттракционе.");
+        } else if (childAge>=5 && childAge<14) {
+            System.out.println("Если возраст ребенка равен "+childAge+", то он может кататься только в " +
+                    "сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else if (childAge>=14) {
+            System.out.println("Если возраст ребенка равен "+childAge+", то он может кататься без " +
+                    "сопровождения взрослого.");
+        }
     }
     public static void task7(){
         System.out.println("");
